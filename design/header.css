@@ -1,0 +1,50 @@
+body {
+	margin: 0px;
+}
+
+#header {
+	height: 100px;
+}
+
+#centreposition {
+	padding-right: 20px;
+	padding-left: 22%;
+	background-color: #FFFFF7;
+}
+
+/* The centrecontent style is set up for a 2 column layout.  
+If you want a 3 column layout then change the centreposition style like this:   padding-right: 200px; 
+<div id="right"> Write the content for your right hand column inside an id-"right" div like this </div> */
+
+#centrecontent {
+	z-index: 100;
+	min-width: 1px;
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+	padding: 10px;
+}
+
+#footer {
+	padding-left: 175px;
+	background-color: #FFFFF7;
+}
+
+#left {
+	width: 20%;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	padding: 10px 0px 10px 6px;
+}
+
+
+
+#right {
+	width: 130px;
+	position: absolute;
+	top: 100px;
+	right: 0px;
+	height: 200px;
+}
+
+/* Computer-Zen www.computer-zen.com is part of the VORD Web Design Network www.vordweb.co.uk */

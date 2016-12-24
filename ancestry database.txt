@@ -1,0 +1,28 @@
+person:
+id, - int
+first, - varchar
+middle, - varchar
+last, - varchar
+birth, - date
+death, - date
+mother, - varchar # Linked to a person
+father, - varchar # Linked to a person
+children, - varchar # List of links to persons.
+marriages, - varchar # List
+lifestory, - varchar
+comments, - varchar # List
+admins - varchar # List of admin users
+
+comments:
+id, - int
+person, - int # Linked to a person
+userid, - varchar # Linked to a user in the login db
+timestamp, - timestamp
+subject, - varchar
+lifestory - varchar
+
+marriage:
+id, - int
+spouses, - varchar
+date, - date
+location - varchar
